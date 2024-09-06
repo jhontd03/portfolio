@@ -1,11 +1,15 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+## About me
+
+Physicist Engineer and Master's in Data Science, specialized in the analysis and processing of large volumes of data using advanced Machine Learning, Deep Learning, and Big Data techniques. I seek to participate in challenging projects in a dynamic and collaborative environment that promotes innovation. I am committed to driving strategic decision-making by transforming complex data into actionable and valuable insights
+
+#### Technical Skills: Python, R, SQL, C, C++, Azure, Machine Learing, Deep Learning, Big Data
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- M.S., Data Science | UOC Open University of Catalonia (_Feb 2024_)								       		
+- M.S., Engineering Physics	| University of Cauca (_Dec 2017_)
+- B.S., Engineering Physics | University of Cauca (_Aug 2011_)
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
