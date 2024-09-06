@@ -11,22 +11,32 @@ Physicist Engineer and Master's in Data Science, specialized in the analysis and
 - M.S., Engineering Physics	| University of Cauca (_Dec 2017_)
 - B.S., Engineering Physics | University of Cauca (_Aug 2011_)
 
-## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
-
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+## Professional Experience
+**Data Scientist @ Independent (_June 2022 - Present_)**
+- Developed a Python-based framework using vectorbt and the RIPPER algorithm.
+- Integrated modules for design, backtesting, and robustness testing of algorithmic trading strategies.
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### Machine learning techniques applied to predict potential buyers in an e-commerce platform for business products in Colombia
+[Publication](https://github.com/jhontd03/PredictionCustomer)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+In a context where business information is essential, anticipating who will become customers is crucial for business strategy. To tackle this challenge, I used various machine learning techniques and the CRISP-DM methodology, focusing my research on five key phases:
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+- Understand business challenges and define objectives for prediction and retention.
+- Analyze data quality by considering various sources.
+- Prepare the data through cleaning and transformation.
+- Implement machine learning techniques to build predictive models.
+- Evaluate performance and compare the effectiveness of the models.
+
+Machine Learning Models and Techniques Used:
+
+- Sampling: Applied to balance the classes of the target variable. I tested different sampling techniques to select the best classification models.
+- Ensemble Models: Used to improve the accuracy of predictions. Includes Random Forest, Gradient Boosting, and XGBoost.
+- Recursive Feature Elimination (RFE): To select the most relevant variables, optimizing model performance.
+- Cost-sensitive Learning (CSL): Implemented to address class imbalance issues, maximizing the effectiveness of predictive models.
+- Voting: Technique used to combine the best models, resulting in a robust and accurate final model.
+    
+![Prediction Customer](/assets/img/eeg_band_discovery.jpeg)
 
 ### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
@@ -34,13 +44,3 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
 
 ![Bike Study](/assets/img/bike_study.jpeg)
-
-## Talks & Lectures
-- Causality: The new science of an old question - GSP Seminar, Fall 2021
-- Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
-- Guest Lecture: Fourier and Wavelet Transforms - Scientific Computing (PHYS 5315), Fall 2020
-- A Brief Introduction to Optimization - GSP Seminar, Fall 2019
-- Weeks of Welcome Poster Competition - UTD, Fall 2019
-- A Brief Introduction to Networks - GSP Seminar, Spring 2019
-
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
