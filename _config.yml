@@ -1,2 +1,8 @@
 title: Jhon Jairo Realpe
 theme: jekyll-theme-minimal
+
+logo: /assets/img/headshot_circle.png
+email: jhonjarealpe@gmail.com
+
+plugins:
+  - jekyll-seo-tag
