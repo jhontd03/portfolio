@@ -4,6 +4,7 @@
 
 .description p {
     line-height: 1;
+    font-size: 14px; /* Cambia el tamaño de la fuente aquí */
 }
 
 .location-email, .social-links {
