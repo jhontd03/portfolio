@@ -1,5 +1,6 @@
 .description p {
     line-height: 1;
+    text-align: justify;
 }
 
 .location-email, .social-links {
