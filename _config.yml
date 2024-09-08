@@ -6,3 +6,5 @@ email: jhonjarealpe@gmail.com
 
 plugins:
   - jekyll-seo-tag
+
+dark_mode: true
