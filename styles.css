@@ -27,9 +27,9 @@
 a.button-link {
     display: inline-block;
     padding: 10px 20px;
-    border: 2px solid #1e90ff;
+    border: 2px solid #1a78d6;
     border-radius: 5px;
-    color: #1e90ff;
+    color: #1a78d6;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -39,7 +39,7 @@ a.button-link:hover {
     color: #121212;
 }
 h1, h2, h3 {
-    color: #1e90ff;
+    color: #1a78d6;
 }
 
 h1:not(.portfolio-title) {
