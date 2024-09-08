@@ -14,6 +14,6 @@
 h1:not(.portfolio-title) {
     text-align: center;
 }
-.column-2 h1 {
+.column:last-child header h1 {
     text-align: left;
 }
