@@ -5,43 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Científico de Datos</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+            display: flex;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 100%;
+            max-width: 150px;
+            border-radius: 50%;
+        }
+        .social-links a {
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Portafolio de [Nombre del Científico de Datos]</h1>
-        <p>Bienvenido a mi portafolio de proyectos en ciencia de datos.</p>
-    </header>
-    <section id="about">
-        <h2>Sobre mí</h2>
-        <p>[Breve descripción sobre el científico de datos]</p>
-    </section>
-    <section id="projects">
-        <h2>Proyectos Destacados</h2>
-        <ul>
-            <li>
-                <h3>Proyecto 1</h3>
-                <p>[Descripción del proyecto 1]</p>
-            </li>
-            <li>
-                <h3>Proyecto 2</h3>
-                <p>[Descripción del proyecto 2]</p>
-            </li>
-            <!-- Agregar más proyectos según sea necesario -->
-        </ul>
-    </section>
-    <section id="skills">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Python</li>
-            <li>Machine Learning</li>
-            <li>Data Visualization</li>
-            <!-- Agregar más habilidades según sea necesario -->
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Email: [correo@example.com]</p>
-    </section>
+    <div class="container">
+        <div class="column">
+            <img src="assets/img/headshot_circle.png" alt="Foto de perfil" class="profile-img">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tu-perfil">LinkedIn</a>
+                <a href="https://github.com/tu-usuario">GitHub</a>
+            </div>
+            <h2>Sobre mí</h2>
+            <p>[Breve descripción sobre el científico de datos]</p>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Python</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>Big Data</li>
+            </ul>
+            <h2>Formación Académica</h2>
+            <ul>
+                <li>Master en Ciencia de Datos</li>
+                <li>Master en Ingeniería Física</li>
+                <li>Pregrado en Ingeniería Física</li>
+            </ul>
+        </div>
+        <div class="column">
+            <header>
+                <h1>Portafolio de [Nombre del Científico de Datos]</h1>
+                <p>Bienvenido a mi portafolio de proyectos en ciencia de datos.</p>
+            </header>
+            <section id="projects">
+                <h2>Proyectos Destacados</h2>
+                <ul>
+                    <li>
+                        <h3>Proyecto 1</h3>
+                        <p>[Descripción del proyecto 1]</p>
+                    </li>
+                    <li>
+                        <h3>Proyecto 2</h3>
+                        <p>[Descripción del proyecto 2]</p>
+                    </li>
+                    <!-- Agregar más proyectos según sea necesario -->
+                </ul>
+            </section>
+            <section id="contact">
+                <h2>Contacto</h2>
+                <p>Email: [correo@example.com]</p>
+            </section>
+        </div>
+    </div>
     <footer>
         <p>&copy; 2024 [Nombre del Científico de Datos]. Todos los derechos reservados.</p>
     </footer>
