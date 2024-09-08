@@ -7,4 +7,5 @@ email: jhonjarealpe@gmail.com
 plugins:
   - jekyll-seo-tag
 
-dark_mode: true
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
