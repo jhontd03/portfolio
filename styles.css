@@ -1,3 +1,7 @@
+.description p {
+    line-height: 1.2;
+}
+
 .location-email, .social-links {
     text-align: center;
 }
