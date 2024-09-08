@@ -1,5 +1,0 @@
-/* Dark Mode */
-body.dark-mode {
-  background-color: {{ site.theme_color_dark }};
-  color: {{ site.text_color_dark }};
-}
