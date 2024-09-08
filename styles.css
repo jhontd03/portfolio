@@ -11,6 +11,6 @@
     display: inline-block;
     margin: 0 5px;
 }
-h1:not(.portfolio-title) {
+h1:not(.portfolio-title), .column-2 h1 {
     text-align: center;
 }
