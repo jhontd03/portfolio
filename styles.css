@@ -38,6 +38,10 @@ a.button-link:hover {
     background-color: #1e90ff;
     color: #121212;
 }
+h1, h2, h3 {
+    color: #1e90ff;
+}
+
 h1:not(.portfolio-title) {
     text-align: center;
 }
