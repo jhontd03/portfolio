@@ -29,8 +29,13 @@
             color: #ff6347;
         }
 
+        .profile-img-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
         .profile-img {
-            width: 100%;
             max-width: 150px;
             border-radius: 50%;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -65,7 +70,9 @@
 <body>
     <div class="container">
         <div class="column">
-            <img src="assets/img/headshot_circle.png" alt="Foto de perfil" class="profile-img">
+            <div class="profile-img-container">
+                <img src="assets/img/headshot_circle.png" alt="Foto de perfil" class="profile-img">
+            </div>
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/tu-perfil" aria-label="LinkedIn">
                     <i class="fab fa-linkedin"></i>
